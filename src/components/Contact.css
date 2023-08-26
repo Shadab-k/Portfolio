@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container-contact{
+    height: 125vh;
+    /* background-image: linear-gradient(#aa885b,#97534c); */
+    background-color: rgb(13, 13, 54);
+  }
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-con{
+  height: 120vh;
+  width: 100vh;
+}
+.s1{
+  /* FORM CONTAINER */
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+  background-color: rgb(13, 13, 54);
+  /* margin-left: 300px; */
+  padding: 20px;
+  height: 780px;
+}
+
+input[type=text], select, textarea {
+  width: 95%;
+  padding: 12px;
+  border: 1px solid #160d0d;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-left: 20px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.h1class{
+  color: azure;
+  margin-left: 20px;
+  font-size: 40px;
+  font-style: "Times New Roman";
+}
+
+
+input[type=email], select, textarea {
+  width: 95%;
+  padding: 12px;
+  border: 1px solid #160d0d;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-left: 20px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* .container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+} */
+
+.word1{
+  color: white;
+  margin-left: 20px;
+}
+.word2{
+  color: white;
+  margin-left: 20px;
+}
+.word3{
+  color: white;
+  margin-left: 20px;
+}
+.word4{
+  color: white;
+  margin-left: 20px;
+}
+.word5{
+  color: white;
+  margin-left: 20px;
+}
+/* .word6{
+  color: white;
+}   */
+
+@media (max-width: 1000px) {
+  .contact {
+    flex-direction: column;
+  }
+
+  .container-contact{
+    height: 100%;
+
+  }
+  
+  .s1 {
+    width: 100%;
+    padding: 10px;
+    height: auto;
+  }
+
+  .img-con{
+    height: 100%;
+    width: 100%;
+  }
+
+  input[type=text], input[type=email], select, textarea {
+    width: 93%;
+    /* margin-left: 10px; */
+    
+  }
+
+}
+
