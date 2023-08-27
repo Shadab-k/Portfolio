@@ -20,7 +20,7 @@ function App() {
       <Router>
         <Navigation />
         <Routes>
-          <Route exact path="/home"
+          <Route path="/"
             element={<HomeDetails />} />
 
 
@@ -30,7 +30,7 @@ function App() {
 
           <Route exact path="/contact"
             element={<Contact />} />
-        </Routes>
+        </Routes> 
         <Footer />
       </Router >
 

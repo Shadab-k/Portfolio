@@ -86,12 +86,8 @@
     /* margin-left: 500px; */
     cursor: pointer;
 }
-.git-icon:hover{
-   
-    color: rgb(51, 43, 43);  
-}
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
     .footer {
       height: auto;
       padding: 20px;
