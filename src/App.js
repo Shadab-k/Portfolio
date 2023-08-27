@@ -19,8 +19,11 @@ function App() {
     <>
       <Router>
         <Navigation />
+        {/* <HomeDetails/>
+        <About/>
+        <Contact/> */}
         <Routes>
-          <Route path="/"
+          <Route exact path="/home"
             element={<HomeDetails />} />
 
 
