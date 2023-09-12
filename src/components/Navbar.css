@@ -137,26 +137,29 @@ nav ul li a:hover {
  
 @media (max-width: 1000px) {
   nav {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
-  
+  position: relative;
     padding: 10px;
     height: auto;
   }
 
   nav img {
     margin-left: 0px;
+    /* flex-direction: column; */
   }
 
   nav ul {
+    flex-direction: column;
     margin-top: 15px;
     margin-left: 0;
-    flex-direction: column;
+    /* flex-direction: row; */
     
-    align-items: center;
+    /* align-items: center; */
   }
 
   nav ul li {
+    flex-direction: column;
     margin: 10px 0;
 
   }
