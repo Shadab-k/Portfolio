@@ -45,7 +45,6 @@ class About extends React.Component {
               </ul>
             </div>
           </div>
-          {/* <h2>Hi, I am a Car!</h2> */}
         </div >
         <hr />
         <div className="edu">

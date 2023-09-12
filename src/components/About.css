@@ -550,17 +550,18 @@ margin-left: 10px;
 @media (max-width: 1000px){
   .container-about {
     height: auto;
+    overflow: hidden;
   }
 
   .img2-about {
     flex-direction: column;
-    /* align-items: center; */
-    /* height: fit-content; */
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    align-self: center;
     justify-content: center;
     height: 100%;
     width: 100%;
+    overflow: hidden;
   }
 
   .img2-about-1 {
@@ -572,7 +573,7 @@ margin-left: 10px;
   }
 
   .write {
-    margin: 20px;
+    /* margin: 20px; */
     text-align: center;
   
   }
