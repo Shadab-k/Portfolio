@@ -108,6 +108,7 @@
     .fcontact,
     .fprojects {
       margin: 10px 0;
+      margin-left: 9px;
       text-align: center;
     }
   }

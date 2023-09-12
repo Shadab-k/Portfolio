@@ -85,7 +85,8 @@ height: 50vh;
 }
 
 .myschool-img {
-  height: 420px;
+  margin-top: 20px;
+  height: 375px;
   width: 300px;
 }
 
@@ -149,6 +150,12 @@ height: 50vh;
 .flip-card-front1 {
   background-color: #bbb;
   color: black;
+}
+
+.img-avatar {
+  margin-top: 20px;
+  height: 55vh;
+  width: 45vh;
 }
 
 .flip-card-back1 {
@@ -582,6 +589,7 @@ margin-left: 10px;
 
   .intro-sen {
     list-style: none;
+    margin-bottom: 40px;
   }
 
   .edu {
@@ -623,17 +631,22 @@ margin-left: 10px;
   .flip-card1 {
     flex-direction: column;
     margin-top: 70px;
-    height: 60vh;
+    /* height: 60vh; */
     display: inline-block;
     margin-left: 10px;
   }
 
   .flip-card-front1 {
-    height: 530px;
+    height: 75vh;
+  }
+
+  .flip-card-back1 {
+    height: 75vh;
   }
 
   .container-exp {
     height: auto;
+    /* margin-bottom: 20px; */
   }
 
   .my-skills {
@@ -646,6 +659,7 @@ margin-left: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    /* margin-bottom: 20px; */
   }
 
   .hed1-3 {
@@ -696,7 +710,6 @@ margin-left: 10px;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    
   }
   .container-img {
     width: auto;
@@ -716,8 +729,9 @@ margin-left: 10px;
   .container-img {
     height: 80%;
     width: 80%;
-    /* margin-top: 40px; */
-    margin: 0;
+    margin-top: 40px;
+    /* margin: 0; */
+    margin-bottom: 40px;
     margin-left: 0;
     text-align: center;
   }
@@ -866,7 +880,7 @@ margin-left: 10px;
     align-items: center;
   }
   .projects {
-    height: 230vh;
+    height: 190vh;
     display: flex;
     flex-direction: column;
     background-color: rgb(154, 56, 56);
@@ -875,62 +889,41 @@ margin-left: 10px;
   }
 }
 
-@media  (max-width: 900px) {
+/* -----------------------CSS FOR ABOUT IMAGE--------------------- */
 
-.text {
-  height: auto;
-  /* width: 80%; */
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  align-self: center;
-  margin-top: 40px;
-  /* margin: 0; */
-  overflow: hidden;
-  font-size: 1.2rem;
-  margin-left: 0;
+@media (max-width: 900px) {
+  .text {
+    height: auto;
+    /* width: 80%; */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 40px;
+    /* margin: 0; */
+    overflow: hidden;
+    font-size: 1.2rem;
+    margin-left: 0;
+  }
 }
+  /* ------------------------------------------------------------------ */
+@media (max-width: 860px) {
+  .text {
+    height: auto;
+    /* width: 80%; */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 40px;
+    /* margin: 0; */
+    overflow: hidden;
+    font-size: 1rem;
+    margin-left: 0;
+  }
 }
-
-
-  @media  (max-width:860px) {
-
-    .text {
-      height: auto;
-      /* width: 80%; */
-      display: flex;
-      text-align: center;
-      flex-direction: column;
-      align-self: center;
-      margin-top: 40px;
-      /* margin: 0; */
-      overflow: hidden;
-      font-size: 1rem;
-      margin-left: 0;
-    }
-    }
-
-
-    @media  (max-width:711px) {
-
-      .text {
-        height: auto;
-        /* width: 80%; */
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-self: center;
-        margin-top: 40px;
-        /* margin: 0; */
-        overflow: hidden;
-        font-size: 0.8rem;
-        margin-left: 0;
-      }
-      }
-
-
-@media  (max-width: 602px) {
-
+  /* ------------------------------------------------------------------ */
+@media (max-width: 711px) {
   .text {
     height: auto;
     /* width: 80%; */
@@ -944,72 +937,401 @@ margin-left: 10px;
     font-size: 0.8rem;
     margin-left: 0;
   }
+}
+  /* ------------------------------------------------------------------ */
+
+@media (max-width: 602px) {
+  .text {
+    height: auto;
+    /* width: 80%; */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 40px;
+    /* margin: 0; */
+    overflow: hidden;
+    font-size: 0.8rem;
+    margin-left: 0;
+  }
+}
+  /* ------------------------------------------------------------------ */
+@media (max-width: 540px) {
+  .text {
+    height: auto;
+    /* width: 80%; */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 40px;
+    /* margin: 0; */
+    overflow: hidden;
+    font-size: 0.7rem;
+    margin-left: 0;
+  }
+}
+  /* ------------------------------------------------------------------ */
+
+@media (max-width: 478px) {
+  .text {
+    height: auto;
+    /* width: 80%; */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 40px;
+    /* margin: 0; */
+    overflow: hidden;
+    font-size: 0.6rem;
+    margin-left: 0;
+  }
+}
+  /* ------------------------------------------------------------------ */
+@media (max-width: 420px) {
+  .text {
+    height: auto;
+    /* width: 80%; */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 40px;
+    /* margin: 0; */
+    overflow: hidden;
+    font-size: 0.5rem;
+    margin-left: 0;
+  }
+}
+
+  /* ------------------------------------------------------------------ */
+
+@media (max-width: 380px) {
+  .text {
+    height: auto;
+    /* width: 80%; */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 40px;
+    /* margin: 0; */
+    overflow: hidden;
+    font-size: 0.45rem;
+    margin-left: 0;
+  }
+}
+/* ---------------------------CSS FOR FLIP CARD 1 & 2---------------- */
+
+@media (max-width: 900px) {
+  .edu {
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #2196f3; */
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(101, 9, 121, 0.8357359301142332) 35%,
+      rgba(0, 212, 255, 1) 100%
+    );
   }
 
-  @media  (max-width: 540px) {
+  .flip-card {
+    flex-direction: column;
+    height: 45vh;
+    display: inline-block;
+    margin-left: 10px;
+    align-self: center;
+  }
 
-    .text {
-      height: auto;
-      /* width: 80%; */
-      display: flex;
-      text-align: center;
-      flex-direction: column;
-      align-self: center;
-      margin-top: 40px;
-      /* margin: 0; */
-      overflow: hidden;
-      font-size: 0.7rem;
-      margin-left: 0;
-    }
-    }
+  .flip-card-front {
+    height: 45vh;
+  }
+  .myschool-img {
+    margin-top: 10px;
+    height: 30vh;
+    width: 30vh;
+  }
 
-    @media  (max-width: 478px) {
+  .flip-card-back {
+    height: 45vh;
+    font-size: 0.7rem;
+    overflow: hidden;
+  }
 
-      .text {
-        height: auto;
-        /* width: 80%; */
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-self: center;
-        margin-top: 40px;
-        /* margin: 0; */
-        overflow: hidden;
-        font-size: 0.6rem;
-        margin-left: 0;
-      }
-      }
+  .flip-card1 {
+    flex-direction: column;
+    margin-top: 90px;
+    /* height: 50vh; */
+    display: inline-block;
+    margin-left: 10px;
+  }
 
-      @media  (max-width: 420px) {
+  .flip-card-front1 {
+    height: 45vh;
+  }
 
-        .text {
-          height: auto;
-          /* width: 80%; */
-          display: flex;
-          text-align: center;
-          flex-direction: column;
-          align-self: center;
-          margin-top: 40px;
-          /* margin: 0; */
-          overflow: hidden;
-          font-size: 0.5rem;
-          margin-left: 0;
-        }
-        }
+  .flip-card-back1 {
+    height: 45vh;
+    font-size: 0.76rem;
+    overflow: hidden;
+  }
 
-        @media  (max-width: 380px) {
+  .img-avatar {
+    height: 30vh;
+    width: 30vh;
+  }
+  .projects {
+    height: 150vh;
+  }
+}
 
-          .text {
-            height: auto;
-            /* width: 80%; */
-            display: flex;
-            text-align: center;
-            flex-direction: column;
-            align-self: center;
-            margin-top: 40px;
-            /* margin: 0; */
-            overflow: hidden;
-            font-size: 0.45rem;
-            margin-left: 0;
-          }
-          }
+/* -------------------------------------------------------------    */
+@media (max-width: 550px) {
+  .projects {
+    height: 170vh;
+  }
+}
+/* -------------------------------------------------------------    */
+
+@media (max-width: 600px) {
+  .projects {
+    height: 170vh;
+  }
+}
+/* -------------------------------------------------------------    */
+@media (max-width: 700px) {
+  .projects {
+    height: 170vh;
+  }
+}
+/* @media (max-width: 450px) {
+            .projects {
+              height: 170vh;
+            }
+
+
+            .edu {
+              height: 130vh;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              /* background-color: #2196f3; */
+/* background: rgb(2, 0, 36);
+              background: linear-gradient(
+                90deg,
+                rgba(2, 0, 36, 1) 0%,
+                rgba(101, 9, 121, 0.8357359301142332) 35%,
+                rgba(0, 212, 255, 1) 100%
+              );
+            } */
+
+.flip-card {
+  flex-direction: column;
+  height: 45vh;
+  display: inline-block;
+  margin-left: 10px;
+  align-self: center;
+}
+
+.flip-card-front {
+  height: 45vh;
+}
+.myschool-img {
+  margin-top: 10px;
+  height: 30vh;
+  width: 30vh;
+}
+
+.flip-card-back {
+  height: 45vh;
+  font-size: 0.9rem;
+  overflow: hidden;
+}
+
+.flip-card1 {
+  flex-direction: column;
+  margin-top: 90px;
+  /* height: 50vh; */
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.flip-card-front1 {
+  height: 45vh;
+}
+
+.flip-card-back1 {
+  height: 45vh;
+  font-size: 0.9rem;
+  overflow: hidden;
+}
+
+.img-avatar {
+  height: 30vh;
+  width: 30vh;
+}
+
+/* -------------------------------------------------------------    */
+
+@media (max-width: 450px) {
+  .projects {
+    height: 230vh;
+  }
+
+  .edu {
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #2196f3; */
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(101, 9, 121, 0.8357359301142332) 35%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  }
+
+  .flip-card {
+    flex-direction: column;
+    height: 45vh;
+    display: inline-block;
+    margin-left: 10px;
+    align-self: center;
+  }
+
+  .flip-card-front {
+    height: 45vh;
+  }
+  .myschool-img {
+    margin-top: 10px;
+    height: 30vh;
+    width: 30vh;
+  }
+
+  .flip-card-back {
+    height: 45vh;
+    font-size: 0.75rem;
+    overflow: hidden;
+  }
+
+  .flip-card1 {
+    flex-direction: column;
+    margin-top: 90px;
+    /* height: 50vh; */
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  .flip-card-front1 {
+    height: 45vh;
+  }
+
+  .flip-card-back1 {
+    height: 45vh;
+    font-size: 0.74rem;
+    overflow: hidden;
+  }
+
+  .img-avatar {
+    height: 30vh;
+    width: 30vh;
+  }
+}
+
+/* ---------------------------------------------------------------- */
+
+@media (max-width: 417px) {
+  .projects {
+    height: 170vh;
+  }
+
+  .edu {
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #2196f3; */
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(101, 9, 121, 0.8357359301142332) 35%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  }
+
+  .flip-card {
+    flex-direction: column;
+    height: 45vh;
+    display: inline-block;
+    margin-left: 10px;
+    align-self: center;
+  }
+
+  .flip-card-front {
+    height: 45vh;
+  }
+  .myschool-img {
+    margin-top: 10px;
+    height: 30vh;
+    width: 30vh;
+  }
+
+  .flip-card-back {
+    height: 45vh;
+    font-size: 0.74rem;
+    overflow: hidden;
+  }
+
+  .flip-card1 {
+    flex-direction: column;
+    margin-top: 90px;
+    /* height: 50vh; */
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  .flip-card-front1 {
+    height: 45vh;
+  }
+
+  .flip-card-back1 {
+    height: 45vh;
+    font-size: 0.74rem;
+    overflow: hidden;
+  }
+
+  .img-avatar {
+    height: 30vh;
+    width: 30vh;
+  }
+}
+
+/* ------------------------------------------------------------------- */
+
+@media (max-width: 395px) {
+  .projects {
+    height: 180vh;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+
+@media (max-width: 380px) {
+  .projects {
+    height: 225vh;
+  }
+}
+/* ------------------------------------------------------------------ */
+@media (max-width: 365px) {
+  .projects {
+    height: 211vh;
+  }
+}

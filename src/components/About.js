@@ -70,7 +70,7 @@ class About extends React.Component {
               <div className="flip-card-front1">
 
                 <h1>About My Graduation</h1>
-                <img src="img-avatar2.png" alt="" width="300px" height="420px" />
+                <img src="img-avatar2.png" className='img-avatar' alt="" />
               </div>
               <div className="flip-card-back1">
                 <b><h1>IIMT College Of Engineering</h1> </b> <br />
