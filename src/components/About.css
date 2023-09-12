@@ -85,8 +85,8 @@ height: 50vh;
 }
 
 .myschool-img {
-  height:420px;
-  width:300px;
+  height: 420px;
+  width: 300px;
 }
 
 .flip-card:hover .flip-card-inner {
@@ -425,7 +425,7 @@ width:'100px';
   font-size: 20px;
   color: #f44336;
   background-color: black;
-  
+
   /* opacity: 0.8; */
   position: absolute;
   top: 50%;
@@ -547,7 +547,7 @@ margin-left: 10px;
 }
 
 /* Responsive CSS ------------------------------------------------------------------------------------------------*/
-@media (max-width: 1000px){
+@media (max-width: 1000px) {
   .container-about {
     height: auto;
     overflow: hidden;
@@ -561,7 +561,6 @@ margin-left: 10px;
     justify-content: center;
     height: 100%;
     width: 100%;
-    overflow: hidden;
   }
 
   .img2-about-1 {
@@ -575,14 +574,13 @@ margin-left: 10px;
   .write {
     /* margin: 20px; */
     text-align: center;
-  
   }
 
-  .intro{
+  .intro {
     text-align: center;
   }
 
-  .intro-sen{
+  .intro-sen {
     list-style: none;
   }
 
@@ -592,9 +590,13 @@ margin-left: 10px;
     flex-direction: column;
     align-items: center;
     /* background-color: #2196f3; */
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(101,9,121,0.8357359301142332) 35%, rgba(0,212,255,1) 100%);
-
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(101, 9, 121, 0.8357359301142332) 35%,
+      rgba(0, 212, 255, 1) 100%
+    );
   }
 
   .flip-card {
@@ -602,7 +604,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(101,9,121,0.835735930
     height: 70vh;
     display: inline-block;
     margin-left: 10px;
-  align-self: center;
+    align-self: center;
   }
 
   .flip-card-front {
@@ -610,11 +612,11 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(101,9,121,0.835735930
   }
   .myschool-img {
     margin-top: 40px;
-    height:320px;
-    width:300px;
+    height: 320px;
+    width: 300px;
   }
 
-  .flip-card-back{
+  .flip-card-back {
     height: 70vh;
   }
 
@@ -630,61 +632,48 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(101,9,121,0.835735930
     height: 530px;
   }
 
-  
-
   .container-exp {
     height: auto;
-  
   }
 
   .my-skills {
     /* margin-left: 0px; */
     margin: 0;
-    
   }
-  .hed1-2{
-   margin-left: 0;
-   width: 90%;
-display: flex;
-align-items: center;
-flex-direction: column;
-  }
-
-  .hed1-3{
-  
-   margin-left: 0;
-
+  .hed1-2 {
+    margin-left: 0;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 
-  .hed1-4{
-   margin-left: 0;
-
+  .hed1-3 {
+    margin-left: 0;
   }
 
-  .hed1-5{
-   margin-left: 0;
-
+  .hed1-4 {
+    margin-left: 0;
   }
 
-  .hed1-6{
-   margin-left: 0;
-
+  .hed1-5 {
+    margin-left: 0;
   }
 
-  .hed1-7{
-   margin-left: 0;
-
+  .hed1-6 {
+    margin-left: 0;
   }
 
-  .hed1-8{
-   margin-left: 0;
-
+  .hed1-7 {
+    margin-left: 0;
   }
 
-  .hed1-9{
-   margin-left: 0;
-   
+  .hed1-8 {
+    margin-left: 0;
+  }
 
+  .hed1-9 {
+    margin-left: 0;
   }
 
   /* .my-skills-img {
@@ -701,15 +690,16 @@ flex-direction: column;
   }
 
   .container-exp1 {
-    height: 200vh;
-    background-size: cover;
-   display: flex;
-   flex-direction: column;
-   text-align: center;
-   align-items: center;
+    height: auto;
+    /* background-size: cover; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
   }
-  .container-img{
-    width: 80%;
+  .container-img {
+    width: auto;
   }
   .image {
     /* display: inline-block; */
@@ -726,39 +716,37 @@ flex-direction: column;
   .container-img {
     height: 80%;
     width: 80%;
-    margin-top: 40px;
-    /* margin: 0; */
+    /* margin-top: 40px; */
+    margin: 0;
     margin-left: 0;
     text-align: center;
   }
 
   .overlay {
-    height: fit-content;
+    /* height: fit-content; */
+    height: auto;
     align-items: center;
     display: flex;
     flex-direction: column;
-    
   }
 
-  .text{
-    height: 80%;
-    width: 80%;
+  .text {
+    height: auto;
+    /* width: 80%; */
     display: flex;
     text-align: center;
     flex-direction: column;
     align-self: center;
     margin-top: 40px;
     /* margin: 0; */
+    overflow: hidden;
+    /* font-size: 0.7rem; */
     margin-left: 0;
-    
-
   }
 
   .centered {
     font-size: 18px;
   }
-
- 
 
   .flip-card2 {
     /* background-color: transparent; */
@@ -769,25 +757,24 @@ flex-direction: column;
     /* margin-left: 250px; */
     margin-top: 60px;
     height: 700px;
-    
+
     /* perspective: 1000px; */
   }
 
-
   .flip-card-front3,
-.flip-card-back3 {
-  position: absolute;
-  width: 100%;
-  height: 640px;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
+  .flip-card-back3 {
+    position: absolute;
+    width: 100%;
+    height: 640px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
 
-.flip-card-front3 {
-  background-color: #bbb;
-  color: black;
-  height: 530px;
-}
+  .flip-card-front3 {
+    background-color: #bbb;
+    color: black;
+    height: 530px;
+  }
 
   .flip-card2,
   .flip-card3 {
@@ -795,18 +782,14 @@ flex-direction: column;
     /* margin-right: 20px; */
   }
 
-  
-
-.myskills-img{
-  /* margin-top: 20px;
+  .myskills-img {
+    /* margin-top: 20px;
   margin-left: 16px; */
-  height: 80px;
-  width: 80px;
-  display: flex;
-  align-self: center;
-}
-
- 
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-self: center;
+  }
 
   .hed1 {
     margin-top: 50px;
@@ -876,20 +859,157 @@ flex-direction: column;
     color: rgb(25, 25, 46);
   }
 
-    .manage{
-      display: flex;
-      justify-content: center;
-      /* text-align: center; */
-      align-items: center;
- 
+  .manage {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
   }
-  .projects{
+  .projects {
     height: 230vh;
     display: flex;
     flex-direction: column;
     background-color: rgb(154, 56, 56);
     align-items: center;
     text-align: center;
-    
   }
 }
+
+@media  (max-width: 900px) {
+
+.text {
+  height: auto;
+  /* width: 80%; */
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-self: center;
+  margin-top: 40px;
+  /* margin: 0; */
+  overflow: hidden;
+  font-size: 1.2rem;
+  margin-left: 0;
+}
+}
+
+
+  @media  (max-width:860px) {
+
+    .text {
+      height: auto;
+      /* width: 80%; */
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      align-self: center;
+      margin-top: 40px;
+      /* margin: 0; */
+      overflow: hidden;
+      font-size: 1rem;
+      margin-left: 0;
+    }
+    }
+
+
+    @media  (max-width:711px) {
+
+      .text {
+        height: auto;
+        /* width: 80%; */
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-self: center;
+        margin-top: 40px;
+        /* margin: 0; */
+        overflow: hidden;
+        font-size: 0.8rem;
+        margin-left: 0;
+      }
+      }
+
+
+@media  (max-width: 602px) {
+
+  .text {
+    height: auto;
+    /* width: 80%; */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 40px;
+    /* margin: 0; */
+    overflow: hidden;
+    font-size: 0.8rem;
+    margin-left: 0;
+  }
+  }
+
+  @media  (max-width: 540px) {
+
+    .text {
+      height: auto;
+      /* width: 80%; */
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      align-self: center;
+      margin-top: 40px;
+      /* margin: 0; */
+      overflow: hidden;
+      font-size: 0.7rem;
+      margin-left: 0;
+    }
+    }
+
+    @media  (max-width: 478px) {
+
+      .text {
+        height: auto;
+        /* width: 80%; */
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-self: center;
+        margin-top: 40px;
+        /* margin: 0; */
+        overflow: hidden;
+        font-size: 0.6rem;
+        margin-left: 0;
+      }
+      }
+
+      @media  (max-width: 420px) {
+
+        .text {
+          height: auto;
+          /* width: 80%; */
+          display: flex;
+          text-align: center;
+          flex-direction: column;
+          align-self: center;
+          margin-top: 40px;
+          /* margin: 0; */
+          overflow: hidden;
+          font-size: 0.5rem;
+          margin-left: 0;
+        }
+        }
+
+        @media  (max-width: 380px) {
+
+          .text {
+            height: auto;
+            /* width: 80%; */
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            align-self: center;
+            margin-top: 40px;
+            /* margin: 0; */
+            overflow: hidden;
+            font-size: 0.45rem;
+            margin-left: 0;
+          }
+          }
