@@ -121,6 +121,10 @@ input[type=submit]:hover {
     height: auto;
   }
 
+  .c1{
+    margin-bottom: 40px;
+  }
+
   .img-con{
     height: 100%;
     width: 100%;

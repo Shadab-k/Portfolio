@@ -1182,6 +1182,19 @@ margin-left: 10px;
             .projects {
               height: 170vh;
             }
+
+            .flip-card-back {
+              height: 45vh;
+              font-size: 0.7rem;
+              overflow: hidden;
+            }
+            .flip-card-back1 {
+              height: 45vh;
+              font-size: 0.7rem;
+              overflow: hidden;
+             
+
+            }
           }
           
           @media (max-width: 395px) {

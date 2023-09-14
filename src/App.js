@@ -3,14 +3,15 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import HomeDetails from "./components/HomeDetails";
-// import PasswordInput from "./components/Input/Index";
-import Navigation from "./components/Navigation";
+
 import {
   BrowserRouter as Router,
   Routes,
   Route,
 
 } from "react-router-dom"
+import Navigation from "./components/Navigation";
+
 
 
 
@@ -18,7 +19,7 @@ function App() {
   return (
     <>
       <Router>
-        <Navigation />
+        <Navigation/>
         {/* <HomeDetails/>
         <About/>
         <Contact/> */}
