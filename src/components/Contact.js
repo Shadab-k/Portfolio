@@ -1,7 +1,4 @@
 import React, { useState } from 'react';
-// import { useState } from "react"
-// import React, from 'react'
-
 import "./Contact.css"
 export default function Contact() {
     const [user, setUser] = useState({
@@ -65,27 +62,9 @@ export default function Contact() {
         }
     }
 
-        //     const nameValidation = ()=>{
-        //        let text=newText
-        //         if(text===String){
-        //             setUser(newText)
-        //         }
-        //         else{
-        //             alert("Invalid Credentials")
-        //         }
+    
 
-        //     }
-
-
-        // }
-        // const [text, newText]= useState()
-
-
-
-        // // import Footer from './Footer'
-
-        // export default class Contact extends Component {
-        //     render() {
+      
         return (
             <>
                 <hr />
